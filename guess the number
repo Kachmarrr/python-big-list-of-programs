@@ -1,0 +1,11 @@
+num = int(input("I guessed a number from one to 100, guess it: "))
+my_num: int = 11
+while True:
+
+    if num > my_num:
+        num = int(input("my number is less: "))
+    elif num < my_num:
+        num = int(input("my number is more: "))
+    if num == my_num:
+        print("YEP its my number")
+    break
